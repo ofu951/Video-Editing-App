@@ -253,7 +253,6 @@ class DynamicRenderWorker(QThread):
                     video_klasoru=self.b_roll_folder
                 )
                 
-                # 🔥 DÜZELTME: Motora yeni hook_ranges verisini aktarıyoruz
                 uretici.green_screen_video = self.gs_video
                 uretici.green_screen_interval = self.gs_interval
                 uretici.gs_scale = self.gs_scale
