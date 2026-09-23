@@ -1,0 +1,15 @@
+# Medya ve Arşiv Dosyaları
+*.mp4
+*.mp3
+*.srt
+*.zip
+
+# İstenmeyen Klasörler
+podcast_memory_db/
+Gelecek/
+arkaplan_videolari/
+
+# Python ve Sanal Ortam Dosyaları
+__pycache__/
+.venv/
+*.pyc
